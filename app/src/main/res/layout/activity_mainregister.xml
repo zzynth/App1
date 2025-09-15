@@ -10,16 +10,17 @@
     <EditText
         android:id="@+id/editTxtRepeatPass"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/main_editTxt_RepeatPasswrdRE"
+        android:text="Repite la contraseña"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788" />
+        app:layout_constraintVertical_bias="0.788"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/txtRepeatPass"
@@ -36,16 +37,17 @@
     <EditText
         android:id="@+id/editTxtpasswrdregister"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/main_editTxt_passwrdRE"
+        android:text="Ingresa tu contraseña"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/txtCreatepass"
@@ -74,16 +76,18 @@
     <EditText
         android:id="@+id/editTxtUsernameregister"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/main_editTxt_UsernameRE"
+        android:text="Nombre de usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518" />
+        app:layout_constraintVertical_bias="0.518"
+        tools:ignore="HardcodedText" />
+
 
     <TextView
         android:id="@+id/txtUsernameregister"
@@ -100,16 +104,17 @@
     <EditText
         android:id="@+id/editTxtEmailregister"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="@string/main_editTxt_EmailRe"
+        android:text="gmail@gmail.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.189"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.377" />
+        app:layout_constraintVertical_bias="0.377"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/txtEmailregister"
@@ -150,16 +155,17 @@
     <EditText
         android:id="@+id/editTxtFullname"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/main_editTxt_Fullname"
+        android:text="Nombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.189"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
+        app:layout_constraintVertical_bias="0.244"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btnRegister"

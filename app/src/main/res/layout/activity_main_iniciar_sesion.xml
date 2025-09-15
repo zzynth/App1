@@ -21,16 +21,17 @@
     <EditText
         android:id="@+id/editTxtEmail"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="@string/main_editTxt_Gmail"
+        android:text="Ingresa tu gmail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.268"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.505" />
+        app:layout_constraintVertical_bias="0.505"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/txtEmail"
@@ -59,16 +60,17 @@
     <EditText
         android:id="@+id/editTxtPasswrd"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="@string/main_editTxt_Contraseña"
+        android:text="Ingresa tu contraseña"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.268"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.718" />
+        app:layout_constraintVertical_bias="0.718"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/txtLogin"

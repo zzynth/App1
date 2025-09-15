@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/btnLogin1"
         android:layout_width="179dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginTop="156dp"
         android:text="@string/main_btn_Login1"
         app:layout_constraintBottom_toBottomOf="parent"

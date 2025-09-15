@@ -11,22 +11,22 @@
     <string name="main_loginbio">Ingresa tus datos para inciar sesión</string>
 
     <string name="main_email">Gmail</string>
-    <string name="main_editTxt_Gmail">gmail@gmail.com</string>
+
     <string name="main_password">Contraseña</string>
-    <string name="main_editTxt_Contraseña">Ingresa tu contraseña</string>
+
     <string name="main_btn_Login">Iniciar sesión</string>
 
     <string name="main_Register">Registrarse</string>
     <string name="main_Registerbio">Crea una cuenta</string>
     <string name="main_Fullname">Nombre completo</string>
-    <string name="main_editTxt_Fullname">Ingresa tu nombre completo</string>
+
     <string name="main_EmailRe">Ingresa tu gmail</string>
-    <string name="main_editTxt_EmailRe">gmail@gmail.com</string>
+
     <string name="main_usernameRE">Crea un nombre de usuario</string>
-    <string name="main_editTxt_UsernameRE">Nombre de usuario</string>
+
     <string name="main_passwrdRE">Ingresa tu contraseña</string>
-    <string name="main_editTxt_passwrdRE">Contraseña</string>
+
     <string name="main_RepeatpassRE">Repite la contraseña</string>
-    <string name="main_editTxt_RepeatPasswrdRE">Contraseña</string>
+
     <string name="main_btn_Register">Registrar</string>
 </resources>
