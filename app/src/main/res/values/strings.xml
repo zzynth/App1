@@ -2,6 +2,7 @@
     <string name="app_name">App1</string>
 
     <string name="Main_Welcome">¡Bienvenido!</string>
+    <string name="Main_Welcome2">Organiza tu día, alcanza tus metas. Con nuestra app de gestión de tareas podrás planificar, priorizar y dar seguimiento a tus proyectos de forma sencilla y eficiente.</string>
     <string name="main_btn_Empezar">Empezar</string>
 
     <string name="main_btn_Login1">Iniciar sesión</string>
