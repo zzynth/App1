@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Enlaza el botón por ID
-        Button btnEmpezar = findViewById(R.id.btnEmpezar);
+        Button btnEmpezar = findViewById(R.id.btnLogin2);
 
         //Agrega el listener para cambiar de actividad
         btnEmpezar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainInicio.class);
+                Intent intent = new Intent(MainActivity.this, MainIniciarSesion.class);
                 startActivity(intent);
                 finish(); //para cerrar la pantalla actual
             }

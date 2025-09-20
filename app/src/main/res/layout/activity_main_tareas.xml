@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTareas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Espacio superior para bajar el título -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="61dp" />
+
+    <!-- Título más abajo -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Gestión de tareas"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Campo para nueva tarea -->
+    <EditText
+        android:id="@+id/editTxtTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe una nueva tarea"
+        android:inputType="text"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Botón para agregar -->
+    <Button
+        android:id="@+id/btnAgregarTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar tarea"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Lista de tareas más pequeña -->
+    <ListView
+        android:id="@+id/listViewTareas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:choiceMode="multipleChoice"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Contenedor horizontal para el porcentaje -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/txtPorcentaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completadas: 0%"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Botón para eliminar completadas -->
+    <Button
+        android:id="@+id/btnEliminarCompletadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar completadas"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

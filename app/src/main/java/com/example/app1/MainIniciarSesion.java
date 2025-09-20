@@ -1,24 +1,39 @@
 package com.example.app1;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainIniciarSesion extends AppCompatActivity {
+
+    private EditText editTxtEmail, editTxtPasswrd;
+    private Button btnLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main_iniciar_sesion);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+
+        editTxtEmail = findViewById(R.id.editTxtEmail);
+        editTxtPasswrd = findViewById(R.id.editTxtPasswrd);
+        btnLogin = findViewById(R.id.btnLogin);
+
+        btnLogin.setOnClickListener(v -> {
+            String username = editTxtEmail.getText().toString().trim();
+            String password = editTxtPasswrd.getText().toString().trim();
+
+            if (username.equals("admin") && password.equals("admin1234")) {
+                // Ir a la pantalla de tareas
+                Intent intent = new Intent(MainIniciarSesion.this, MainTareas.class);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(MainIniciarSesion.this, "Usuario o contraseña incorrectos", Toast.LENGTH_SHORT).show();
+            }
         });
     }
 }

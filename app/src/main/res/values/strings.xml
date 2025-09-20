@@ -5,29 +5,16 @@
     <string name="Main_Welcome2">Organiza tu día, alcanza tus metas. Con nuestra app de gestión de tareas podrás planificar, priorizar y dar seguimiento a tus proyectos de forma sencilla y eficiente.</string>
     <string name="main_btn_Empezar">Empezar</string>
 
-    <string name="main_btn_Login1">Iniciar sesión</string>
+    <string name="main_btn_Login1">Entrar</string>
     <string name="main_btn_Register1">Registrar</string>
 
-    <string name="main_login">Iniciar Sesión</string>
+    <string name="main_login2">Iniciar Sesión</string>
     <string name="main_loginbio">Ingresa tus datos para inciar sesión</string>
-
-    <string name="main_email">Gmail</string>
-
+    <string name="main_username">Username</string>
     <string name="main_password">Contraseña</string>
-
     <string name="main_btn_Login">Iniciar sesión</string>
+    <string name="main_username2">Ingresar username</string>
 
-    <string name="main_Register">Registrarse</string>
-    <string name="main_Registerbio">Crea una cuenta</string>
-    <string name="main_Fullname">Nombre completo</string>
+    <string name="main_Tareas">Gestión de tareas</string>
 
-    <string name="main_EmailRe">Ingresa tu gmail</string>
-
-    <string name="main_usernameRE">Crea un nombre de usuario</string>
-
-    <string name="main_passwrdRE">Ingresa tu contraseña</string>
-
-    <string name="main_RepeatpassRE">Repite la contraseña</string>
-
-    <string name="main_btn_Register">Registrar</string>
 </resources>
